@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-family: "Inter", sans-serif;
+    --foreground: #fbfbfb;
+
+    /* --card: 0 0% 100%;
+    --card-foreground: 20 14.3% 4.1%; */
+
+    --popover: #fbfbfb;
+    /* --popover-foreground: 20 14.3% 4.1%; */
+
+    --primary: #191a15;
+    /* --primary-foreground: 60 9.1% 97.8%; */
+
+    --secondary: #fbfbfb;
+    /* --secondary-foreground: 24 9.8% 10%; */
+
+    --btn: #54be96;
+    --btn-accent: #36a379;
+
+    --muted: rgba(25, 26, 21, 0.6);
+    /* --muted-foreground: 25 5.3% 44.7%; */
+
+    --accent: #54be96;
+    /* --accent-foreground: 24 9.8% 10%; */
+
+    /* --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 60 9.1% 97.8%; */
+
+    --border: rgba(25, 26, 21, 0.1);
+    --input: #191a15;
+    /* --ring: 24.6 95% 53.1%; */
+    --radius: 30px;
+    --radius-lg: 30px;
+
+    --transition-pattern: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+button {
+  cursor: pointer;
+  transition: var(--transition-pattern);
+}
+.link {
+  @apply hover:text-green-600 py-4;
+}
+.active {
+  @apply text-green-600;
+}
