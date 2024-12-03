@@ -21,7 +21,7 @@
 
     --btn: #54be96;
     --btn-accent: #36a379;
-
+  
     --muted: rgba(25, 26, 21, 0.6);
     /* --muted-foreground: 25 5.3% 44.7%; */
 
@@ -40,9 +40,18 @@
     --transition-pattern: 200ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
+input{
+  outline: none;
+}
 button {
   cursor: pointer;
   transition: var(--transition-pattern);
+}
+.btn{
+  @apply flex gap-2 max-w-max border min-w-[124px] min-h-[48px] py-[14px] px-10 rounded-lg hover:bg-btn hover:text-secondary text-xl bg-foreground;
+}
+.green-btn {
+  @apply bg-btn hover:bg-btn-accent text-secondary;
 }
 .link {
   @apply hover:text-green-600 py-4;
@@ -50,3 +59,4 @@ button {
 .active {
   @apply text-green-600;
 }
+

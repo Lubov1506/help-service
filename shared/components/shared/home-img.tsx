@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { Check } from "lucide-react";
 import { Button } from "./button";
-import { cn } from "../utils/utils";
+import { cn } from "../../utils/utils";
 import { Square } from "./square";
 import { Users } from "lucide-react";
 export interface HomeImgProps {

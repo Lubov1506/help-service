@@ -1,4 +1,4 @@
-import { Container, Header } from "@/shared/components";
+import { Container, Header } from "@/shared/components/shared";
 import "./globals.css";
 import { Inter } from "next/font/google";
 

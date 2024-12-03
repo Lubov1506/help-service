@@ -3,7 +3,7 @@ import { Container } from "./container";
 import { Logo } from "./logo";
 import { NavLinks } from "./nav-links";
 import { AuthBlock } from "./auth-block";
-import { cn } from "../utils/utils";
+import { cn } from "../../utils/utils";
 export interface HeaderProps {
   className?: string;
 }

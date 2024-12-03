@@ -1,4 +1,4 @@
-import { HomeContent, HomeImg } from "@/shared/components";
+import { HomeContent, HomeImg } from "@/shared/components/shared";
 import { cn } from "@/shared/utils/utils";
 import React from "react";
 
