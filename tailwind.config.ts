@@ -1,4 +1,5 @@
-import type { Config } from "tailwindcss";
+import { Salad } from "lucide-react"
+import type { Config } from "tailwindcss"
 
 export default {
   content: [
@@ -16,7 +17,10 @@ export default {
         popover: "var(--popover)",
         primary: "var(--primary)",
         secondary: "var(--secondary)",
+        "card-text": "var(--card-text)",
+        "rev-avatar-bg": "var(--rev-avatar-bg)",
         accent: "var(--accent)",
+        salad: "var(--salad)",
         muted: "var(--muted)",
         btn: "var(--btn)",
         "btn-accent": "var(--btn-accent)",
@@ -37,8 +41,8 @@ export default {
       rotate: {
         "15": "15deg",
         "345": "-15deg",
-      }
+      },
     },
   },
   plugins: [],
-} satisfies Config;
+} satisfies Config

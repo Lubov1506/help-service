@@ -1,6 +1,7 @@
 import { Container, Header } from "@/shared/components/shared";
 import "./globals.css";
 import { Inter } from "next/font/google";
+import { cn } from "@/shared/utils/utils";
 
 const inter = Inter({
   subsets: ["cyrillic"],
@@ -18,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={cn(' bg-[#f3f3f3]',inter.className)}>
         <Header />
         <hr />
         <Container>

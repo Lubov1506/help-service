@@ -17,7 +17,7 @@ export const HomeContent = ({ className }: HomeContentProps) => {
         We help you to reveal your potential, overcome challenges and find a
         guide in your own life with the help of our experienced psychologists.
       </p>
-      <Button green text="Get started" icon={<MoveUpRight />} className="px-[50px] py-[18px] mt-5" />
+      <Button green text="Get started" icon={<MoveUpRight />} className="px-[50px] py-[18px] mt-5 max-w-max" />
     </div>
   );
 };
